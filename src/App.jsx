@@ -50,8 +50,7 @@ function App() {
             <FaInstagram></FaInstagram>
           </a>
           <a
-            href="https://wa.me/+34622003108?text=Hola%2C%20estoy%20intenresado%20en%20vuestros%20servicios.
-"
+            href="https://wa.me/43622003108?text=Buenas,%20me%20gustaría%20saber%20más%20acerca%20de%20vuestros%20servicios."
             target="_blank"
             aria-label="whatsapp"
           >
