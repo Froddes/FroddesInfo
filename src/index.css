@@ -41,9 +41,23 @@ div.filter{
   flex-direction: column;
 }
 
+@keyframes onLoad {
+  0%{
+    transform: translateY(-50px);
+    opacity: 0;
+  }50%{
+    opacity: 0.25;
+  }100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 img{
   width: 100px;
   filter: drop-shadow(0 0 50px rgb(0, 12, 18));
+
+  animation: onLoad 2s linear;
 }
 
 h1{
@@ -52,22 +66,29 @@ h1{
   font-style: normal;
   font-size: 250%;
   text-transform: uppercase;
-  margin: 5px 0 12.5px 0
+  margin: 5px 0 12.5px 0;
+
+  animation: onLoad 2s linear;
 }
 h2{
   font-family: "Goldman", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin: 10px 0;
+
+  animation: onLoad 2s linear;
 }
 
 p{
   font-family: "Poppins", sans-serif;
   margin: 10px 0;
+
+  animation: onLoad 2s linear;
 }
 
 div.rrss{
   margin: 40px 0 20px 0;
+  animation: onLoad 2s linear;
 }
 
   div.rrss svg{
@@ -87,14 +108,18 @@ div.rrss{
     background-color: rgba(255, 255, 255, 0.2);
   }
 
-footer p{
-  font-size: 75%;
-  color: rgb(154, 154, 154);
+footer{
+  animation: onLoad 2s linear;
 }
 
-footer p a{
-  color: rgb(154, 154, 154);
-}
+  footer p{
+    font-size: 75%;
+    color: rgb(154, 154, 154);
+  }
+
+      footer p a{
+        color: rgb(154, 154, 154);
+      }
 
 @media screen and (max-width: 600px){
   body{
