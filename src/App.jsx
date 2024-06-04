@@ -33,8 +33,8 @@ function App() {
       }
     >
       <div className="filter">
-        <img src="logo.png" alt="logo" />
-        <h1>Romar Designs</h1>
+        <img src="logo.jpg" alt="logo" />
+        <h1>Froddes.</h1>
         <h2>Diseño exclusivo, presencia inolvidable</h2>
         <p>
           Transformamos tu visión en impactables páginas web personalizadas.{" "}
@@ -43,7 +43,7 @@ function App() {
         </p>
         <div className="rrss">
           <a
-            href="https://www.instagram.com/romar.designs.dev/"
+            href="https://www.instagram.com/froddes.design/"
             target="_blank"
             aria-label="Instagram"
           >
@@ -57,14 +57,14 @@ function App() {
             <FaWhatsapp></FaWhatsapp>
           </a>
           <a
-            href="https://twitter.com/RomarDesigns"
+            href="https://x.com/FroddesDesign"
             target="_blank"
             aria-label="Twitter"
           >
             <FaTwitter></FaTwitter>
           </a>
           <a
-            href="mailto:romardesigns.dev@gmail.com"
+            href="mailto:froddes.dev@gmail.com"
             target="_blank"
             aria-label="email"
           >
@@ -72,9 +72,7 @@ function App() {
           </a>
         </div>
         <footer>
-          <p>
-            &copy; Romar Designs | Developed by <a href="">Romar Designs</a>
-          </p>
+          <p>&copy; Froddes | All rights reserved</p>
         </footer>
       </div>
     </section>

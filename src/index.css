@@ -30,7 +30,7 @@ div.filter{
   width: 100%;
 
   box-sizing: border-box;
-  padding: 0 5%;
+  padding: 0 7.5%;
 
   background-color: rgba(0, 20, 30, 0.95);
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" width="800" height="800"><g stroke-width="3.5" stroke="hsla(0, 0%, 100%, 0.05)" fill="none"><line x1="400" y1="0" x2="0" y2="400"></line><line x1="800" y1="0" x2="400" y2="400"></line><line x1="1200" y1="0" x2="800" y2="400"></line><line x1="400" y1="400" x2="0" y2="800"></line><line x1="800" y1="400" x2="400" y2="800"></line><line x1="1200" y1="400" x2="800" y2="800"></line><line x1="400" y1="800" x2="0" y2="1200"></line><line x1="800" y1="800" x2="400" y2="1200"></line><line x1="1200" y1="800" x2="800" y2="1200"></line></g></svg>');
@@ -56,8 +56,9 @@ div.filter{
 img{
   width: 100px;
   filter: drop-shadow(0 0 50px rgb(0, 12, 18));
+  border-radius: 50%;
 
-  animation: onLoad 2s linear;
+  animation: onLoad 1.5s linear;
 }
 
 h1{
@@ -66,9 +67,13 @@ h1{
   font-style: normal;
   font-size: 250%;
   text-transform: uppercase;
-  margin: 5px 0 12.5px 0;
+  margin: 17.5px 0 25px 0;
+  padding: 5px 7.5px;
+  color: #2ebaae;
+  border: 6px solid #2ebaae;
+  text-shadow: none;
 
-  animation: onLoad 2s linear;
+  animation: onLoad 1.5s linear;
 }
 h2{
   font-family: "Goldman", sans-serif;
@@ -76,19 +81,27 @@ h2{
   font-style: normal;
   margin: 10px 0;
 
-  animation: onLoad 2s linear;
+  animation: onLoad 1.5s linear;
 }
 
 p{
   font-family: "Poppins", sans-serif;
   margin: 10px 0;
 
-  animation: onLoad 2s linear;
+  animation: onLoad 1.5s linear;
+}
+
+@keyframes rotate {
+  100%{
+    transform: rotate(0);
+  }50%{
+    transform: rotate(90deg);
+  }
 }
 
 div.rrss{
   margin: 40px 0 20px 0;
-  animation: onLoad 2s linear;
+  animation: onLoad 1.5s linear;
 }
 
   div.rrss svg{
@@ -105,11 +118,11 @@ div.rrss{
   }
 
   div.rrss svg:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #2ebaae33;
   }
 
 footer{
-  animation: onLoad 2s linear;
+  animation: onLoad 1.5s linear;
 }
 
   footer p{
