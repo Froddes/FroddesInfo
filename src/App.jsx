@@ -64,7 +64,7 @@ function App() {
             <FaTwitter></FaTwitter>
           </a>
           <a
-            href="mailto:froddes.dev@gmail.com"
+            href="mailto:info@froddes.com"
             target="_blank"
             aria-label="email"
           >
